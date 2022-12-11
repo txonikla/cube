@@ -1,0 +1,2 @@
+(19:34:24) Matrix Enabled! Version: 6.9.3
+(19:34:51) M1ndx failed BadPackets check | freecam (+5) | vl:5 ping:0 tps:20.0 lp:0 component: bp.freecam

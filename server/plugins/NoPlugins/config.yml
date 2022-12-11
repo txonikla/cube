@@ -1,0 +1,644 @@
+# Enable debug messages?
+debug: false
+# Enable/Disable update checker
+updater: true
+# Enable/Disable update notification when joining the server with enough permissions
+update-notification: true
+# Operator status bypasses NoPlugins? (/op)
+# If this is set to false, you cannot be op and must have the permission (noplugin.bypass) to bypass.
+# Otherwise if set to true, you can be op and have the permission specified or not.
+operator-bypass: false
+# Display list messages?
+list-messaging: false
+
+# Remove every command from the command list in-game?
+# This is what you see when you open chat and enter "/" and then press tab.
+clear-command-list: false
+# The list where you remove commands from the command list in-game and the default set of commands blocked.
+removed-commands:
+  - mycommand:gm
+  - mycommand:s
+  - mycommand:skit
+  - antivpn
+  - antivpn:antivpn
+  - antivpn:avpn
+  - avpn
+  - help
+  - about
+  - ver
+  - '?'
+  - /ex
+  - /fillr
+  - floodfill
+  - unstuck
+  - toggleplace
+  - toggleeditwand
+  - extinguish
+  - ext
+  - chatty:ignore
+  - nametagedit
+  - nametagedit:nametagedit
+  - nametagedit:ne
+  - message
+  - chat
+  - chats
+  - clearchat
+  - chatty
+  - chats
+  - tab
+  - txoniklatab:tab
+  - chatty
+  - t
+  - bs
+  - bs4
+  - co
+  - coreprotect:co
+  - bettersleeping4:bettersleeping
+  - bettersleeping4:bs
+  - bettersleeping4:bs4
+  - bettersleeping
+  - switchchat
+  - chatty:chat
+  - chatty:chatclear
+  - chatty:chats
+  - chatty:chatty
+  - chatty:clearchat
+  - chatty:lchat
+  - chatty:whisper
+  - chatty:w
+  - chatty:tell
+  - chatty:t
+  - chatty:switchchat
+  - chatty:suffix
+  - chatty:setsuffix
+  - chatty:setprefix
+  - chatty:reply
+  - chatty:r
+  - chatty:prefix
+  - chatty:pm
+  - chatty:msg
+  - chatty:message
+  - chatty:m
+  - chatty:lchat
+  - chatty:localchat
+  - lchat
+  - localchat
+  - reply
+  - setprefix
+  - setsuffix
+  - chatclear
+  - nametagedit:nte
+  - ne
+  - nte
+  - /cut
+  - /g
+  - /l
+  - delchunks
+  - d
+  - desc
+  - descend
+  - jumpto
+  - repl
+  - thaw
+  - thru
+  - toggleplace
+  - tracemask
+  - unstuck
+  - pl
+  - plugins
+  - searchitem
+  - selwand
+  - snap
+  - farwand
+  - filter
+  - flood
+  - floodfill
+  - superpickaxe
+  - snapshot
+  - toggleeditwand
+  - tracemask
+  - papi
+  - mycommand:heal
+  - mycommand:kit
+  - mycommand:sc
+  - mycommand:spawn
+  - placeholderapi
+  - placeholderapi:placeholderapi
+  - version
+  - logout
+  - packet
+  - packet_filter
+  - packetlog
+  - we
+  - ex
+  - /ext
+  - /extinguish
+  - /eval
+  - /evaluate
+  - range
+  - reach:reach
+  - redo
+  - rem
+  - remove
+  - rement
+  - removeabove
+  - /br
+  - brush
+  - br
+  - /selwand
+  - sp 
+  - ceil
+  - chunkinfo
+  - clearclipboard
+  - clearhistory
+  - cycler
+  - biomeinfo
+  - biomelist
+  - biomels
+  - butcher
+  - navwand
+  - /material
+  - listchunks
+  - lrbuild
+  - /watchdog
+  - /removeabove
+  - /removebelow
+  - /removenear
+  - /reorder
+  - /rep
+  - /restore
+  - /re
+  - /redo
+  - /thaw
+  - /timeout
+  - /toggleplace
+  - /inset
+  - /outline
+  - /outset
+  - /overlay
+  - /perf
+  - /search
+  - /searchitem
+  - /setbiome
+  - /shift
+  - /size
+  - /solve
+  - /stack
+  - /deform
+  - /desel
+  - /deselect
+  - /distr
+  - /drawsel
+  - /faces
+  - /fast
+  - /gb
+  - /gen
+  - /genbiome
+  - /generate
+  - /generatebiome
+  - /help
+  - /hollow
+  - /limit
+  - /lrbuild
+  - /curve
+  - /count
+  - /contract
+  - /clearhistory
+  - /chunk
+  - /center
+  - /calculate
+  - /calc
+  - /naturalize
+  - /navwand
+  - /material
+  - /middle
+  - /calc
+  - /calculate
+  - ceil
+  - chunkinfo
+  - clearclipboard
+  - clearhistory
+  - cycler
+  - /center
+  - /schem
+  - schem
+  - schematic
+  - /contract
+  - info
+  - /inset
+  - pickaxe
+  - /perf
+  - protocol
+  - protocollib:filter
+  - protocollib:packet
+  - protocollib:packet_filter
+  - protocollib:protocol
+  - protocollib:packetlog
+  - asc
+  - ascend
+  - removenear
+  - removebelow
+  - datapack
+  - datapack list
+  - datapack disable
+  - datapack enable
+  - bukkit:pl
+  - bukkit:plugins
+  - bukkit:ver
+  - bukkit:version
+  - bukkit:?
+  - bukkit:about
+  - bukkit:help
+  - bukkit:reload
+  - bukkit:rl
+  - lp
+  - luckperms
+  - luckperms:luckperms
+  - luckperms:lp
+  - luckperms:perm
+  - lp help
+  - luckperms help
+  - luckperms edit
+  - luckperms editor
+  - lp edit
+  - lp editor
+  - luckperms:permission
+  - luckperms:permissions
+  - luckperms:perms
+  - pluginmenu
+  - mycmd
+  - titlemanager:titlemanager
+  - titlemanager:tm
+  - tm 
+  - plmenu
+  - mycmd-blockset
+  - mycmd-edit
+  - mycmd-itemset
+  - mycmd-npcs
+  - mycmd-playerdata
+  - mycmd-reload
+  - mycmd-runas
+  - mycmd-scheduler
+  - mycmd-signset
+  - mycmd-variables
+  - mycommand
+  - mycommand:emptycommand
+  - mycommand:mycmd
+  - mycommand:mycmd-edit
+  - mycommand:mycmd-itemset
+  - mycommand:mycmd-blockset
+  - mycommand:mycmd-npcs
+  - mycommand:mycmd-playerdata
+  - mycommand:mycmd-reload
+  - mycommand:mycmd-runas
+  - mycommand:mycmd-scheduler
+  - mycommand:mycmd-variables
+  - mycommand:mycmd-signset
+  - mycommand:mycommand
+  - authme:verification
+  - authme:2fa
+  - authme:authme
+  - authme:captcha
+  - authme:changepass
+  - captcha
+  - authme:cp
+  - authme:email
+  - changepassword
+  - cp
+  - authme:email
+  - authme:logout
+  - authme:totp
+  - authme:unreg
+  - authme:verification
+  - cmdspy
+  - cmdspy compatibility
+  - cmdspy debug
+  - cmdspy info
+  - cmdspy off
+  - cmdspy on
+  - cmdspy reload
+  - queue
+  - spec
+  - spectate
+  - skinsrestorer:skin
+  - skins
+  - skinsrestorer:skins
+  - placeholderapi:papi
+  - npreload
+  - noplm
+  - noplugins:noplm
+  - noplugins:npreload
+  - noplugins:plmenu
+  - noplugins:pluginmenu
+  - npreload
+  - vvbukkit
+  - totp code
+  - totp
+  - authme help
+  - authme lastlogin
+  - authme reload
+  - logout
+  - authme
+  - authme:l
+  - authme:login
+  - authme:log
+  - authme:reg
+  - authme:register
+  - authme:changepassword
+  - authme:unregister
+  - skin clear
+  - skin help
+  - skin update
+  - skin url
+  - 1v1
+  - 2fa
+  - viaversion:vvbukkit
+  - viaversion:viaversion
+  - viaversion:viaver
+  - viaversion
+  - verification
+  - viaver
+  - unreg
+  - unregister
+  - tool
+  - bcs
+  - q
+  - nitrocommandblocker:commandblocker
+  - nitrocommandblocker:cb
+  - nitrocommandblocker:commandblocker
+  - email
+  - email help
+  - bettercommandspy
+  - bettercommandspy:bettercommandspy
+  - bettercommandspy:bcs
+  - bettercommandspy:cmdspy
+  - bettercommandspy:commandspy
+  - bettercommandspy:cs
+  - bettercommandspy:cspy
+  - commandspy
+  - cs
+  - cspy
+  - duels:spec
+  - duels:spectate
+  - icanhasbukkit
+  - me
+  - minecraft:help
+  - minecraft:me
+  - rl confirm
+  - rl
+  - advancednmotd:anm
+  - advancement
+  - anm
+  - bukkit:timings
+  - data
+  - clone
+  - timings
+  - experience
+  - gamerule
+  - teammsg
+  - summon
+  - tag
+  - list
+  - loot
+  - locate
+  - locatebiome
+  - give
+  - recipe
+  - reload
+  - replaceitem
+  - paper
+  - particle
+  - perm
+  - perms
+  - plugman
+  - plugman:plugman
+  - playsound
+  - advancement
+  - save-off
+  - save-on
+  - say
+  - minecraft:advancement
+  - minecraft:attribute
+  - minecraft:
+  - minecraft:bossbar
+  - minecraft:clone
+  - minecraft:data
+  - minceraft:datapack
+  - minecraft:debug
+  - minecraft:defaultgamemode
+  - minecraft:deop
+  - minecraft:difficulty
+  - teleport
+  - minecraft:effect
+  - minecraft:enchant
+  - minecraft:execute
+  - minecraft:experience
+  - minecraft:weather
+  - minecraft:function
+  - minecraft:recipe
+  - minecraft:replaceitem
+  - minecraft:playsound
+  - minecraft:particle
+  - minecraft:datapack
+  - minecraft:fill
+  - minecraft:ban
+  - minecraft:ban-ip
+  - minecraft:banlist
+  - tellraw
+  - function
+  - w
+  - tell
+  - sr
+  - pardon
+  - banlist
+  - clear
+  - enchant
+  - minecraft:op
+  - spawnpoint
+  - time
+  - team
+  - titlemanager abc
+  - titlemanager abroadcast
+  - titlemanager amessage
+  - titlemanager amsg
+  - titlemanager animations
+  - titlemanager bc
+  - titlemanager broadcast
+  - titlemanager message
+  - titlemanager msg
+  - titlemanager reload
+  - titlemanager sb
+  - titlemanager version
+  - titlemanager scripts
+  - minecraft:pardon
+  - minecraft:pardon-ip
+  - minecraft:reload
+  - minecraft:scoreboard
+  - minecraft:setblock
+  - pardon-ip
+  - minecraft:fill
+  - minecraft:forceload
+  - minecraft:gamemode
+  - minecraft:gamerule
+  - minecraft:give
+  - minecraft:kick
+  - minecraft:kill
+  - minecraft:xp
+  - minecraft:clear
+  - minecraft:ban
+  - minecraft:ban-ip
+  - minecraft:banlist
+  - minecraft:msg
+  - minecraft:clear
+  - minecraft:loot
+  - minecraft:xp
+  - minecraft:w
+  - minecraft:trigger
+  - minecraft:teleport
+  - minecraft:tell
+  - minecraft:tellraw
+  - minecraft:time
+  - minecraft:title
+  - minecraft:tm
+  - minecraft:tp
+  - minecraft:trigger
+  - minecraft:save-all
+  - minecraft:save-on
+  - minecraft:save-off
+  - minecraft:schedule
+  - minecraft:seed
+  - minecraft:s
+  - minecraft:setidletimeout
+  - minecraft:spawnpoint
+  - minecraft:setworldspawn
+  - minecraft:spectate
+  - minecraft:spreadplayers
+  - minecraft:stop
+  - minecraft:stopsound
+  - minecraft:summon
+  - minecraft:setblock
+  - minecraft:fill
+  - minecraft:forceload
+  - minecraft:gamemode
+  - minecraft:gamerule
+  - minecraft:give
+  - minecraft:kick
+  - minecraft:list
+  - minecraft:locate
+  - minecraft:locatebiome
+  - minecraft:tag
+  - minecraft:team
+  - minecraft:teammsg
+  - minecraft:whitelist
+  - minecraft:worldborder
+  - minecraft:say
+  - schedule
+  - scoreboard
+  - seed
+  - setidletimeout
+  - setworldspawn
+  - stopsound
+  - spreadplayers
+  - spigot
+  - spigot:restart
+  - spigot:spigot
+  - spigot:tps
+  - skinsrestorer
+  - skinsrestorer:skinsrestorer
+  - skinsrestorer:sr
+  - permission
+  - permissions
+  - paper:mspt
+  - paper:paper
+  - forceload
+  - fname
+  - f3namebukkit
+  - f3n
+  - f3name
+  - f3name:debugname
+  - f3name:f3n
+  - f3name:f3name
+  - f3name:fname
+  - f3name:f3namebukkit
+  - emptycommand
+  - difficulty
+  - bossbar
+  - attribute
+  - trigger
+  - xp
+  - weather
+  - worldborder
+  - debug
+  - defaultgamemode
+  - debugname
+# Enable/Disable String Commands Protection
+string-command-protection: true
+# String command message
+string-command-blocked: '&fUnknown command. Type "/help" for help.'
+# String command list, this list may contain commands that actually do not exist on the server.
+string-commands:
+# Enable/Disable console only commands
+console-only-commands: true
+# Console only message
+console-only-message: "&cThis command is console only!"
+# Console only command list
+console-commands:
+  - /op
+  - /deop
+  - /stop
+  - /restart
+  - /reload
+  - /minecraft:reload
+  - /minecraft:stop
+  - /minecraft:restart 
+
+# Block all commands from specific plugins?
+block-plugin-commands: false
+# The list of plugins to block commands from
+# This feature may not work on all plugins due to they register commands differently
+plugins:
+  - FastAsyncWorldEdit
+  - WorldEdit
+  - WorldGuard
+##########################
+# General Messages below #
+##########################
+nopermission: You don't have permission to do this!
+# In this messages section you can add more commands to have custom messages!
+# The key has to be what the command is e.g "about: 'your message'" this is not case SenSITive
+messages:
+  plugins: 'Plugins (1): &aAnkaApi'
+  pl: 'Plugins (1): &aAnkaApi'
+  iCanHasBukkit: 'Plugins (1): &aAnkaApi'
+  about: 'Plugins (1): &aAnkaApi'
+  version: 'Plugins (1): &aAnkaApi'
+  ver: 'Plugins (1): &aAnkaApi'
+  '?': 'Plugins (1): &aAnkaApi'
+  help: 'Plugins (1): &aAnkaApi'
+  icanhasbukkit: 'Plugins (1): &aAnkaApi'
+# This section is for having multiple lines messages!
+# You can add more commands here as well as long they are setup like default:
+#  plugins:
+#    - '&aNot'
+#    - '&aYour'
+#    - '&aBusiness'
+#    - 'More lines? :)'
+list-messages:
+  plugins:
+    - '&aAnkaApi'
+  pl:
+    - '&aAnkaApi'
+  iCanHasBukkit:
+    - '&aAnkaApi'
+  about:
+    - '&aAnkaApi'
+  version:
+    - '&aAnkaApi'
+  ver:
+    - '&aAnkaApi'
+  '?':
+    - '&aAnkaApi'
+  help:
+    - '&aAnkaApi'
+  icanhasbukkit:
+    - '&aAnkaApi'

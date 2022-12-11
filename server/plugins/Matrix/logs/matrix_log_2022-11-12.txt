@@ -1,0 +1,15 @@
+(00:00:40) M1ndx failed HitBox check | missed zombie's hitbox (raytrace: 45/21 positions, tk: 14, prep: true) (+2) | vl:2 ping:0 tps:20.0 lp:4 component: hb.mis
+(00:00:40) M1ndx failed HitBox check | missed zombie's hitbox (raytrace: 45/21 positions, tk: 14, prep: true) (+2) | vl:4 ping:0 tps:20.0 lp:4 component: hb.mis
+(00:00:43) M1ndx failed HitBox check | attack zombie too far away (raytrace: 39/13 positions, tk: 14, distance: 3.709 blocks) (+6) | vl:10 ping:0 tps:20.0 lp:1 component: hb.reach
+(00:00:43) Execute command: matrix notify M1ndx tried to reach entity outside max reach distance (HitBox)
+(00:00:49) M1ndx failed KillAura check | bad strafe movement during combat // strafe (+3) | vl:3 ping:0 tps:20.0 lp:0 component: ka.strafe
+(00:00:49) M1ndx failed KillAura check | bad strafe movement during combat // strafe (+3) | vl:6 ping:0 tps:20.0 lp:0 component: ka.strafe
+(00:00:54) M1ndx failed HitBox check | attack zombie too far away (raytrace: 45/21 positions, tk: 14, distance: 3.587 blocks) (+5) | vl:10 ping:0 tps:20.0 lp:0 component: hb.reach
+(00:00:54) Execute command: matrix notify M1ndx tried to reach entity outside max reach distance (HitBox)
+(00:02:04) M1ndx failed Move check | send invalid ability packets (simple flight hacking) (+20) | vl:20 ping:0 tps:20.0 lp:11 component: move.ability
+(00:02:04) M1ndx failed Move check | send invalid ability packets (simple flight hacking) (+20) | vl:40 ping:0 tps:20.0 lp:11 component: move.ability
+(00:02:05) M1ndx failed Move check | send invalid ability packets (simple flight hacking) (+20) | vl:60 ping:0 tps:20.0 lp:11 component: move.ability
+(00:02:05) Execute command: matrix notify M1ndx tried to move abnormally (Move) #1
+(00:02:05) M1ndx failed Move check | send invalid ability packets (simple flight hacking) (+20) | vl:80 ping:0 tps:20.0 lp:11 component: move.ability
+(00:02:05) M1ndx failed Move check | send invalid ability packets (simple flight hacking) (+20) | vl:100 ping:0 tps:20.0 lp:7 component: move.ability
+(00:02:05) Execute command: matrix notify M1ndx tried to move abnormally (Move) #2

@@ -1,0 +1,239 @@
+[19:34:13] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:34:13] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[19:34:13] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[19:34:13] [Worker-Main-5/INFO]: Loaded 7 recipes
+[19:34:14] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[19:34:14] [Server thread/INFO]: Loading properties
+[19:34:14] [Server thread/INFO]: This server is running Tuinity version git-Tuinity-"7d36676" (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[19:34:14] [Server thread/INFO]: Debug logging is disabled
+[19:34:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:34:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:34:14] [Server thread/INFO]: Default game type: SURVIVAL
+[19:34:14] [Server thread/INFO]: Generating keypair
+[19:34:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:34:14] [Server thread/INFO]: Using default channel type
+[19:34:14] [Server thread/INFO]: Tuinity: Using Java 11 compression from Velocity.
+[19:34:14] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
+[19:34:15] [Server thread/INFO]: (Matrix) | Injecting server connection handler...
+[19:34:15] [Server thread/INFO]: (Matrix) | Java version: 16 (16)
+[19:34:15] [Server thread/INFO]: (Matrix) | Injected unsafe hacking
+[19:34:15] [Server thread/INFO]: (Matrix) | Injecting into net.minecraft.server.v1_16_R3.PlayerConnection
+[19:34:15] [Server thread/INFO]: (Matrix) | Found NMS class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55
+[19:34:15] [Server thread/INFO]: (Matrix) | <MV> Modified the movement delta value check
+[19:34:15] [Server thread/INFO]: (Matrix) | <MV> Modified the rotation delta value check
+[19:34:15] [Server thread/INFO]: (Matrix) | Injected server connection handler
+[19:34:15] [Server thread/INFO]: [Matrix] Log4j2 seems safe, skipping Log4j2 fixes
+[19:34:15] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:34:16] [Server thread/WARN]: Legacy plugin XProtect v3.0.8 does not specify an api-version.
+[19:34:16] [Server thread/INFO]: [NoPlugins] Loading NoPlugins v7.3.3
+[19:34:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.5+57d5ac9
+[19:34:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@222ed692]
+[19:34:16] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[19:34:16] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[19:34:16] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
+[19:34:16] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
+[19:34:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[19:34:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[19:34:16] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[19:34:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[19:34:16] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[19:34:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[19:34:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:34:17] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[19:34:17] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.1
+[19:34:17] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:34:17] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[19:34:17] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[19:34:17] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[19:34:17] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[19:34:17] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[19:34:17] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[19:34:17] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[19:34:17] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[19:34:17] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[19:34:17] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.8.0
+[19:34:17] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
+[19:34:17] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.18
+[19:34:17] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[19:34:17] [Server thread/INFO]: [Vulcan] Loading Vulcan v2.6.7-HOTFIX
+[19:34:17] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-beta2-b2453
+[19:34:17] [Server thread/INFO]: [TxoniklaTAB] Loading TxoniklaTAB v3.0
+[19:34:17] [Server thread/INFO]: [Matrix] Loading Matrix v6.9.3
+[19:34:17] [Server thread/INFO]: [F3Name] Loading F3Name v3.3.0
+[19:34:17] [Server thread/INFO]: [XProtect] Loading XProtect v3.0.8
+[19:34:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:34:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.5+57d5ac9
+[19:34:17] [Server thread/INFO]: WEPIF: Updated config file
+[19:34:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:34:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[19:34:18] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
+[19:34:18] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[19:34:18] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
+[19:34:18] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.18
+[19:34:18] [Server thread/INFO]:         __    
+[19:34:18] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.18
+[19:34:18] [Server thread/INFO]:   |___ |      Running on Bukkit - Tuinity
+[19:34:18] [Server thread/INFO]: 
+[19:34:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:34:18] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:34:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:34:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:34:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 634ms)
+[19:34:19] [Server thread/INFO]: Preparing level "world"
+[19:34:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:34:21] [Server thread/WARN]: Unable to find spawn biome
+[19:34:21] [Server thread/WARN]: Unable to find spawn biome
+[19:34:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:34:22] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[19:34:22] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:34:22] [Server thread/INFO]: Time elapsed: 217 ms
+[19:34:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:34:22] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[19:34:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:34:22] [Server thread/INFO]: Time elapsed: 260 ms
+[19:34:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:34:22] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[19:34:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:34:22] [Server thread/INFO]: Time elapsed: 147 ms
+[19:34:22] [Server thread/INFO]: [NoPlugins] Enabling NoPlugins v7.3.3
+[19:34:22] [Server thread/INFO]: [NoPlugins] Minecraft version: v1_16_R3
+[19:34:22] [Server thread/INFO]: [NoPlugins] --------------------------------
+[19:34:22] [Server thread/INFO]: [NoPlugins] New Version: 8.1
+[19:34:22] [Server thread/INFO]: [NoPlugins] Current Version: 7.3.3
+[19:34:22] [Server thread/INFO]: [NoPlugins] Download link: https://www.spigotmc.org/resources/12965
+[19:34:22] [Server thread/INFO]: [NoPlugins] This plugin is strongly recommended to update if you want to keep your plugins private.
+[19:34:22] [Server thread/INFO]: [NoPlugins] --------------------------------
+[19:34:22] [Server thread/INFO]: [NoPlugins] Successfully loaded.
+[19:34:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[19:34:22] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:34:22] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[19:34:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
+[19:34:22] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.1
+[19:34:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[19:34:22] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_16_R3[32;1m, using [33;1mSpigotSkinRefresher[32;1m.[0;39m
+[19:34:23] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:34:23] [Server thread/INFO]: [Vulcan] Enabling Vulcan v2.6.7-HOTFIX
+[19:34:23] [Server thread/INFO]: [Vulcan] Server Version: 1.16.5 detected!
+[19:34:23] [Server thread/INFO]: [Vulcan] BStats enabled!
+[19:34:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: Vulcan
+[19:34:23] [Server thread/INFO]: [Vulcan] PlaceholderAPI found. Enabling hook!
+[19:34:23] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
+[19:34:23] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[19:34:23] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[19:34:23] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[19:34:23] [Server thread/INFO]: [TxoniklaTAB] Enabling TxoniklaTAB v3.0
+[19:34:23] [Server thread/INFO]: [TxoniklaTAB] Server version: 1.16.5 (v1_16_R3)
+[19:34:23] [Server thread/INFO]: [TxoniklaTAB] Loaded NMS hook in 6ms
+[19:34:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab
+[19:34:24] [Server thread/INFO]: [TxoniklaTAB] Enabled in 41ms
+[19:34:24] [Server thread/INFO]: [Matrix] Enabling Matrix v6.9.3
+[19:34:24] [Server thread/INFO]:         __  ______  __________  _____  __
+[19:34:24] [Server thread/INFO]:        /  |/  /   |/_  __/ __ \/  _/ |/ /
+[19:34:24] [Server thread/INFO]:       / /|_/ / /| | / / / /_/ // / |   / 
+[19:34:24] [Server thread/INFO]:      / /  / / ___ |/ / / _, _// / /   |  
+[19:34:24] [Server thread/INFO]:     /_/  /_/_/  |_/_/ /_/ |_/___//_/|_|  
+[19:34:24] [Server thread/INFO]: 
+[19:34:24] [Server thread/INFO]: * Matrix AntiCheat v6.9.3 | git-Tuinity-"7d36676" (MC: 1.16.5) | TUINITY
+[19:34:24] [Server thread/INFO]: [Matrix] Checking Environment...
+[19:34:24] [Server thread/INFO]: [Matrix] Passed all environment checks
+[19:34:24] [Server thread/WARN]: [Matrix] You are using an unpopular Minecraft version. This may cause issues.
+[19:34:24] [Server thread/WARN]: [Matrix] Matrix might drop support for this version in the future.
+[19:34:24] [Server thread/WARN]: [Matrix] Please update to a supported version. (1.8.8/1.12.2/1.17+)
+[19:34:24] [Server thread/INFO]: [Matrix] Loaded 0 global placeholders
+[19:34:24] [Server thread/INFO]: [Matrix] Enabled 16 checks, Disabled 0 checks
+[19:34:24] [Server thread/INFO]: [Matrix] Loaded all configuration files
+[19:34:24] [Server thread/INFO]: [Matrix] Scanning outdated log files....
+[19:34:24] [Server thread/INFO]: [Matrix] Deleted 1 outdated log files!
+[19:34:24] [Server thread/INFO]: [Matrix] Hooked with PlaceholderAPI
+[19:34:24] [Server thread/INFO]: [Matrix] Hooked with ViaVersion 4+
+[19:34:24] [Server thread/INFO]: [Matrix] Welcome to Matrix!
+[19:34:24] [Server thread/INFO]: [F3Name] Enabling F3Name v3.3.0
+[19:34:24] [Server thread/INFO]: [F3Name] Starting Bukkit(v1_16_R3) version...
+[19:34:24] [Server thread/INFO]: [F3Name] Found PlaceholderAPI! Using it for placeholders.
+[19:34:24] [Server thread/INFO]: [F3Name] Found LuckPerms! Using it for groups.
+[19:34:24] [Server thread/INFO]: [F3Name] [AnkaCore, TPS: %server_tps_1_colored%]
+[19:34:24] [Server thread/INFO]: [F3Name] [This is an example group, This text will show to players with example group, Player groups sorted by their weight]
+[19:34:24] [Server thread/INFO]: [F3Name] Plugin enabled!
+[19:34:24] [Server thread/INFO]: [XProtect] Enabling XProtect v3.0.8*
+[19:34:24] [Server thread/INFO]: XProtect -> Loaded 525 words to filter out.
+[19:34:24] [Server thread/INFO]: XProtect -> Using AuthMe as an authentication plugin.
+[19:34:24] [Server thread/INFO]: XProtect -> Using ProtocolLib for maximum protection.
+[19:34:24] [Server thread/INFO]: XProtect -> Using console filter while under attack.
+[19:34:24] [Server thread/INFO]: XProtect -> Registered 12 captcha types.
+[19:34:24] [Server thread/INFO]: XProtect -> XProtect v3.0.8 has been enabled successfully.
+[19:34:24] [Server thread/INFO]: XProtect ->  Hello!.
+[19:34:24] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:34:24] [Server thread/INFO]: Running delayed init tasks
+[19:34:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+[19:34:24] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[19:34:24] [Craft Scheduler Thread - 8 - Matrix/INFO]: [Matrix] Start checking update....
+[19:34:24] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[19:34:24] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[19:34:24] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[19:34:24] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:34:24] [Server thread/INFO]: Done (10.604s)! For help, type "help"
+[19:34:24] [Server thread/INFO]: Timings Reset
+[19:34:24] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.2) is available at:
+[19:34:24] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[19:34:25] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:34:25] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[19:34:25] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[19:34:25] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[19:34:25] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[19:34:25] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[19:34:25] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:34:25] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
+[19:34:25] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[19:34:25] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:34:25] [Craft Scheduler Thread - 15 - XProtect/INFO]: XProtect -> Found a new update! Download it using https://www.spigotmc.org/resources/67863/ to stay updated.
+[19:34:25] [Craft Scheduler Thread - 9 - Matrix/INFO]: [Matrix] Plugin Enabled
+[19:34:25] [Craft Scheduler Thread - 8 - Matrix/INFO]: > Matrix Updater:
+[19:34:25] [Craft Scheduler Thread - 8 - Matrix/INFO]:     You are using the latest version of Matrix-AntiCheat <3
+[19:34:25] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.5.0, you're on: 4.0.1
+[19:34:25] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.18 which is not a depend, softdepend or loadbefore of this plugin.
+[19:34:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms
+[19:34:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[19:34:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: objective
+[19:34:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[19:34:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[19:34:25] [Server thread/ERROR]: [PlaceholderAPI] expansion class VaultExpansion is outdated: 
+Failed to load due to a [NoClassDefFoundError], attempted to use net/milkbowl/vault/economy/Economy
+[19:34:25] [Server thread/INFO]: 5 placeholder hooks successfully registered!
+[19:34:34] [User Authenticator #1/WARN]: [LuckPerms] LuckPerms already has data for player 'M1ndx' - but this data is stored under a different UUID.
+[19:34:34] [User Authenticator #1/WARN]: [LuckPerms] 'M1ndx' has previously used the unique ids [17ba36dd-4231-32cb-bbf3-9ea5d01024d8] but is now connecting with 'f0938515-09b9-4480-b095-0dd9368ca1ea'
+[19:34:34] [User Authenticator #1/WARN]: [LuckPerms] The UUID the player is connecting with now is Mojang-assigned (type 4). This implies that one of the other servers in your network is not authenticating correctly.
+[19:34:34] [User Authenticator #1/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[19:34:34] [User Authenticator #1/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
+[19:34:34] [User Authenticator #1/INFO]: UUID of player M1ndx is f0938515-09b9-4480-b095-0dd9368ca1ea
+[19:34:34] [Server thread/INFO]: M1ndx joined the game
+[19:34:34] [Server thread/INFO]: M1ndx[/127.0.0.1:4688] logged in with entity id 464 at ([world]-15.5, 71.0, 224.5)
+[19:34:34] [Server thread/INFO]: [Matrix] (Via) Player M1ndx joined with (1.16.x/754) client
+[19:34:41] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] M1ndx used the wrong password
+[19:34:41] [Server thread/INFO]: M1ndx lost connection: Wrong password!
+[19:34:41] [Server thread/INFO]: M1ndx left the game
+[19:34:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@3c7ba30e[id=<null>,name=M1ndx,properties={},legacy=false] (/127.0.0.1:4716) lost connection: Disconnected
+[19:34:49] [User Authenticator #1/INFO]: UUID of player M1ndx is f0938515-09b9-4480-b095-0dd9368ca1ea
+[19:34:49] [Server thread/INFO]: M1ndx joined the game
+[19:34:49] [Server thread/INFO]: M1ndx[/127.0.0.1:4723] logged in with entity id 670 at ([world]-15.5, 71.0, 224.5)
+[19:34:49] [Server thread/INFO]: [Matrix] (Via) Player M1ndx joined with (1.16.x/754) client
+[19:34:53] [Server thread/INFO]: M1ndx lost connection: Disconnected
+[19:34:53] [Server thread/INFO]: M1ndx left the game
+[19:35:26] [User Authenticator #1/INFO]: UUID of player M1ndx is f0938515-09b9-4480-b095-0dd9368ca1ea
+[19:35:26] [Server thread/INFO]: M1ndx joined the game
+[19:35:26] [Server thread/INFO]: M1ndx[/127.0.0.1:5158] logged in with entity id 679 at ([world]-15.5, 71.0, 224.5)
+[19:35:27] [Server thread/INFO]: [Matrix] (Via) Player M1ndx joined with (1.16.x/754) client
+[19:35:30] [Craft Scheduler Thread - 15 - AuthMe/INFO]: [AuthMe] M1ndx used the wrong password
+[19:35:30] [Server thread/INFO]: M1ndx lost connection: Wrong password!
+[19:35:30] [Server thread/INFO]: M1ndx left the game
+[19:35:33] [User Authenticator #1/INFO]: UUID of player M1ndx is f0938515-09b9-4480-b095-0dd9368ca1ea
+[19:35:33] [Server thread/INFO]: M1ndx joined the game
+[19:35:33] [Server thread/INFO]: M1ndx[/127.0.0.1:5165] logged in with entity id 691 at ([world]-15.5, 71.0, 224.5)
+[19:35:34] [Server thread/INFO]: [Matrix] (Via) Player M1ndx joined with (1.16.x/754) client
+[19:35:39] [Craft Scheduler Thread - 8 - AuthMe/INFO]: [AuthMe] M1ndx logged in 127.0.0.1
+[19:35:45] [Craft Scheduler Thread - 9 - AuthMe/INFO]: [AuthMe] M1ndx changed his password
+[19:35:56] [Server thread/INFO]: M1ndx issued server command: /pl
+[19:35:58] [Server thread/INFO]: M1ndx issued server command: /protect
+[19:36:03] [Server thread/INFO]: M1ndx issued server command: /op
+[19:36:05] [Server thread/INFO]: M1ndx issued server command: /g
+[19:36:06] [Server thread/INFO]: M1ndx lost connection: Disconnected
+[19:36:06] [Server thread/INFO]: M1ndx left the game
